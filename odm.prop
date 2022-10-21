@@ -2,8 +2,10 @@
 bluetooth.device.default_name=realme GT 2 Pro
 
 # Graphics
+debug.sf.frame_rate_multiple_threshold=60
 ro.surface_flinger.set_idle_timer_ms=2500
 ro.surface_flinger.set_touch_timer_ms=2500
+debug.sf.frame_rate_multiple_threshold=60
 
 # USB
 vendor.usb.product_string=realme GT 2 Pro
