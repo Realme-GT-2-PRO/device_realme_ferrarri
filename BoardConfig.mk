@@ -24,5 +24,8 @@ TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 # Recovery
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 115
 
+# UDFPS
+SOONG_CONFIG_qtidisplay_udfps := true
+
 # Include the proprietary files BoardConfig.
 include vendor/realme/ferrarri/BoardConfigVendor.mk
