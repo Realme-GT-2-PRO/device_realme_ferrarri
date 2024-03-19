@@ -14,6 +14,9 @@ $(call inherit-product, device/realme/ferrarri/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# ViPER4Android FX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 PRODUCT_NAME := lineage_ferrarri
 PRODUCT_DEVICE := ferrarri
 PRODUCT_MANUFACTURER := realme
