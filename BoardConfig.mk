@@ -13,7 +13,7 @@ DEVICE_PATH := device/realme/ferrarri
 TARGET_KERNEL_CONFIG += vendor/oplus/ferrari.config
 
 # Display
-TARGET_SCREEN_DENSITY := 450
+TARGET_SCREEN_DENSITY := 420
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
@@ -22,7 +22,7 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 
 # Recovery
-TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
+TARGET_RECOVERY_UI_MARGIN_HEIGHT := 115
 
 # Include the proprietary files BoardConfig.
 include vendor/realme/ferrarri/BoardConfigVendor.mk
