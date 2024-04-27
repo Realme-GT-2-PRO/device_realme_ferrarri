@@ -67,7 +67,8 @@ PRODUCT_PACKAGES += \
     OplusNfcResFerrarri \
     OPlusSettingsProviderResTarget \
     OPlusSettingsResTarget \
-    OPlusSystemUIResTarget
+    OPlusSystemUIResTarget \
+    PixelSetupWizardStringsOverlay
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
