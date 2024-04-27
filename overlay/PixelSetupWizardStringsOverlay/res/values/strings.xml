@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bc_welcome_message">Welcome to Realme</string>
+    <string name="deferred_setup_wizard_title">Finish setting up Ferrari</string>
+    <string name="device_name">Ferrari</string>
+    <string name="setup_wizard_title">Ferrari Setup</string>
+    <string name="welcome_message">Welcome to ^1</string>
+
+</resources>
