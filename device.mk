@@ -8,6 +8,9 @@
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
+# Override  OTA assert
+TARGET_OTA_ASSERT_DEVICE := ferrarri,RED8ACL1
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/odm/backend_conf.xml:$(TARGET_COPY_OUT_ODM)/etc/backend_conf.xml \
