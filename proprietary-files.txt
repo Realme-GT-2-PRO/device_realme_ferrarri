@@ -89,6 +89,7 @@ odm/lib64/lib_lvacfs.so
 odm/lib64/liblvacfs_wrapper.so
 
 # Camera
+odm/bin/hw/virtualcameraprovider
 odm/etc/camera/3dphoto/color_depth_inpaint.dlc
 odm/etc/camera/3dphoto/midas_small_ver9_fp16_gpu.dlc
 odm/etc/camera/aicolor/duallut_background.bmp
@@ -797,10 +798,15 @@ odm/etc/camera/settings_fdc.txt
 odm/etc/camera/settings_fdc_lite.txt
 odm/etc/camera/stereoParams.bin
 odm/etc/camera/wide.bin
-odm/etc/init/init.odm.camera.provider.override.rc
+odm/etc/init/virtualcameraprovider.rc
 odm/etc/vintf/manifest/manifest_oplus_cameraextension_aidl.xml
+odm/etc/virtualcamera.json
+odm/lib/libDeVIS.so
+odm/lib/libc++_shared.so
 odm/lib64/aiboost/libQnnHtp.so
 odm/lib64/aiboost/libQnnHtpPrepare.so
+odm/lib64/aiboost/libQnnHtpV69Stub.so
+odm/lib64/aiboost/libQnnSystem.so
 odm/lib64/camera/components/com.oplus.node.pilot.so
 odm/lib64/camera/components/com.oplus.node.preview.so
 odm/lib64/camera/components/com.oplus.node.sstabdefer.so
@@ -828,6 +834,8 @@ odm/lib64/camera/fdconfigpreviewlite.bin
 odm/lib64/camera/fdconfigvideo.bin
 odm/lib64/camera/fdconfigvideolite.bin
 odm/lib64/camera/revision.txt
+odm/lib64/camera.device@3.2-impl.so
+odm/lib64/camera.device@3.3-impl.so
 odm/lib64/lib2DSlender.so
 odm/lib64/lib3d_photo.so
 odm/lib64/libAlgoInterface.so
@@ -868,6 +876,7 @@ odm/lib64/libPreviewDecisionOld.so
 odm/lib64/libRbsFlow_cap.so
 odm/lib64/libRedeyeReduce.so
 odm/lib64/libSNPE.so
+odm/lib64/libSchedAssistExtImpl_vendor.so
 odm/lib64/libSnpeCpu.so
 odm/lib64/libSnpeGpu.so
 odm/lib64/libSnpeHtpV68Stub.so
@@ -875,6 +884,7 @@ odm/lib64/libSnpeHtpV69Stub.so
 odm/lib64/libStarMode.so
 odm/lib64/libSuperRaw.so
 odm/lib64/libSuperTextWrapper.so
+odm/lib64/libTeeClient.so
 odm/lib64/libTrafficMode.so
 odm/lib64/libVDBayerHDR.so
 odm/lib64/libVDBlurless.so
@@ -891,6 +901,9 @@ odm/lib64/libYTCommon.so
 odm/lib64/lib_rectify.so
 odm/lib64/libaiboost.so
 odm/lib64/libaiboost_hexagon.so
+odm/lib64/libaiboost_qnn_sr.so
+odm/lib64/libaiboost_sr.so
+odm/lib64/libaiboost_ubwc.so
 odm/lib64/libaisal.so
 odm/lib64/libaisd.so
 odm/lib64/libaiseg.so
@@ -947,12 +960,11 @@ odm/lib64/libarcsoft_triple_sat.so
 odm/lib64/libarcsoft_triple_zoomtranslator.so
 odm/lib64/libarcsoft_videoautozoom.so
 odm/lib64/libc++_shared.so
-odm/lib64/libcalculator.so
-odm/lib64/libcalculator_htp.so
 odm/lib64/libcreatebin.so
 odm/lib64/libcustomer_halalgovisual.so
 odm/lib64/libcvface_api.so
 odm/lib64/libdav1d.so.4
+odm/lib64/libdpservice.so
 odm/lib64/libdualcam_image_optical_zoom.so
 odm/lib64/libdualcam_optical_zoom_control.so
 odm/lib64/libdualcam_video_optical_zoom.so
@@ -972,12 +984,8 @@ odm/lib64/liboptical_zoom_vs.so
 odm/lib64/libormshalclient.so
 odm/lib64/libosenseaidlhalclient.so
 odm/lib64/libpngwrapper.so
-odm/lib64/libpnscr2.so
 odm/lib64/libremosaic_wrapper.so
-odm/lib64/librmsclib1.so
-odm/lib64/librpmbengclient.so
 odm/lib64/libsaveshaderbin.so
-odm/lib64/libsecurity_event_dcs.so
 odm/lib64/libsharebuffer.so
 odm/lib64/libsharebuffer_impl.so
 odm/lib64/libsnpe_dsp_domains_v2.so
@@ -989,10 +997,14 @@ odm/lib64/libstdc++.so
 odm/lib64/libstface_fd_api.so
 odm/lib64/libstfaceunlockocl.so
 odm/lib64/libstfd_mobile_api.so
+odm/lib64/libswscale.so
 odm/lib64/libthirdcapability.so
 odm/lib64/libtriplecam_optical_zoom_control.so
 odm/lib64/libtriplecam_video_optical_zoom.so
+odm/lib64/libuahcore.so
+odm/lib64/liburcccore.so
 odm/lib64/libwatermark_photo.so
+odm/lib64/libyuvwrapper.so
 odm/lib64/vendor.oplus.hardware.cameraextension-V1-service-impl.so
 odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
@@ -1000,6 +1012,13 @@ odm/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so
 odm/lib64/vendor.oplus.hardware.sendextcamcmd-V2-ndk.so
 odm/lib64/vendor.oplus.hardware.urcc-V1-ndk_platform.so
+odm/lib64/vendor.oplus.hardware.virtual_device.camera.hal@3.3.so
+odm/lib64/vendor.oplus.hardware.virtual_device.camera.manager@1.0-impl.so
+odm/lib64/vendor.oplus.hardware.virtual_device.camera.manager@1.0.so
+odm/lib64/vendor.oplus.hardware.virtual_device.camera.provider@2.4-impl.so
+odm/lib64/vendor.oplus.hardware.virtual_device.camera.provider@2.5-impl.so
+odm/lib64/vendor.oplus.hardware.virtual_device.camera.provider@2.6-impl.so
+odm/lib64/vendor.oplus.hardware.virtual_device.camera.provider@2.7-impl.so
 vendor/bin/hw/vendor.qti.camera.provider@2.7-service_64
 vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc
 vendor/lib64/camera/components/com.arcsoft.node.eisv2.so
@@ -1300,7 +1319,6 @@ odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
 odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml
 odm/lib64/hw/fingerprint.goodix_G7.default.so
 odm/lib64/anc.hal.so
-odm/lib64/libTeeClient.so
 odm/lib64/libgf_hal_G7.so
 odm/lib64/libolc_vnd.so
 odm/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so
@@ -1378,3 +1396,5 @@ odm/etc/wifi/sar-vendor-cmd.xml
 odm/etc/wifi/wifisar.cfg
 odm/etc/wifi.cfg
 odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini
+odm/vendor/etc/wifi/WCNSS_qcom_cfg_cmcc.ini
+odm/vendor/etc/wifi/WCNSS_qcom_cfg_roam.ini
