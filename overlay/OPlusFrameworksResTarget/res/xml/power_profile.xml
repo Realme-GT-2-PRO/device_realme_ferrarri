@@ -53,7 +53,6 @@
   <item name="camera.flashlight">108</item> <!-- Avg. power for camera flash, ~160mA -->
   <item name="camera.avg">1047</item> <!-- Avg. power use of camera in standard usecases, ~550mA -->
   <item name="gps.on">75</item> <!-- ~50mA -->
-
   <item name="audio">78</item> <!-- new add ~10mA -->
   <item name="video">51</item> <!-- new add ~50mA -->
   <item name="bluetooth.controller.idle">1.7</item>  <!--new add -->
@@ -69,7 +68,6 @@
   <array name="radio.on"> <!-- Strength 0 to BINS-1 delete 1 line-->
       <value>1.2</value> <!-- ~2mA -->
   </array>
-
 
   <!-- Radio related values. For modems WITH energy reporting support in firmware, use
        modem.controller.idle, modem.controller.tx, modem.controller.rx, modem.controller.voltage.
@@ -240,7 +238,7 @@
   </array>
 
   <!-- Current when CPU is awake -->
-  <item name="cpu.awake">15.68</item>
+  <item name="cpu.active">15.68</item>
   <!-- Current when CPU is idle -->
   <item name="cpu.idle">6.5</item>
 
