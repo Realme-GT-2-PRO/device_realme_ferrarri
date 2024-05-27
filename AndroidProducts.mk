@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ferrarri.mk
+    $(LOCAL_DIR)/droidx_ferrarri.mk
+
+COMMON_LUNCH_CHOICES := \
+    droidx_ferrarri-ap1a-user \
+    droidx_ferrarri-ap1a-userdebug \
+    droidx_ferrarri-ap1a-eng
