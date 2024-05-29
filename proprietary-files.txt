@@ -982,7 +982,6 @@ odm/lib64/liboplus-uah-client.so
 odm/lib64/liboptical_zoom_dc.so
 odm/lib64/liboptical_zoom_vs.so
 odm/lib64/libormshalclient.so
-odm/lib64/libosenseaidlhalclient.so
 odm/lib64/libpngwrapper.so
 odm/lib64/libremosaic_wrapper.so
 odm/lib64/libsaveshaderbin.so
@@ -1008,7 +1007,6 @@ odm/lib64/libyuvwrapper.so
 odm/lib64/vendor.oplus.hardware.cameraextension-V1-service-impl.so
 odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
-odm/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so
 odm/lib64/vendor.oplus.hardware.sendextcamcmd-V2-ndk.so
 odm/lib64/vendor.oplus.hardware.urcc-V1-ndk_platform.so
