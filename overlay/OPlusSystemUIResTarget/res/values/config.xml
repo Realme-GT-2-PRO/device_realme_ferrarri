@@ -61,4 +61,7 @@
          before the screen has had chance to switch out of HBM mode -->
     <integer name="config_udfpsDimmingDisableDelay">35</integer>
 
+    <!-- Location on the screen of the center of the physical power button. -->
+    <dimen name="physical_power_button_center_screen_location_y">888px</dimen>
+
 </resources>
