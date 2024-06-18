@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ferrarri.mk
+    $(LOCAL_DIR)/everest_ferrarri.mk
