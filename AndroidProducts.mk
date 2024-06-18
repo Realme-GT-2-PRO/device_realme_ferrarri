@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ferrarri.mk
+    $(LOCAL_DIR)/blaze_ferrarri.mk
+
+COMMON_LUNCH_CHOICES := \
+    blaze_ferrarri-user \
+    blaze_ferrarri-userdebug \
+    blaze_ferrarri-eng
