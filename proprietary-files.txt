@@ -88,13 +88,6 @@ odm/etc/lvacfs_params/3mic/audiozoom_3.txt
 odm/lib64/lib_lvacfs.so
 odm/lib64/liblvacfs_wrapper.so
 
-# Bluetooth Audio Extend
-odm/etc/compatibility_matrix_oplus_bluetooth_audio_extend.xml
-odm/lib64/hw/vendor.oplus.hardware.bluetooth_audio_extend@2.1-impl.so
-odm/lib64/libbluetooth_audio_extend_factory_client.so
-odm/lib64/libbluetooth_audio_extend_session_oplus.so
-odm/lib64/vendor.oplus.hardware.bluetooth_audio_extend@2.1.so
-
 # Camera
 odm/bin/hw/virtualcameraprovider
 odm/etc/camera/3dphoto/color_depth_inpaint.dlc
