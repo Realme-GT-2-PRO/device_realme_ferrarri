@@ -803,6 +803,7 @@ odm/etc/camera/settings_fdc_lite.txt
 odm/etc/camera/stereoParams.bin
 odm/etc/camera/wide.bin
 odm/etc/init/virtualcameraprovider.rc
+odm/etc/init/init.odm.camera.provider.override.rc
 odm/etc/vintf/manifest/manifest_oplus_cameraextension_aidl.xml
 odm/etc/virtualcamera.json
 odm/lib/libDeVIS.so
@@ -988,7 +989,11 @@ odm/lib64/liboptical_zoom_dc.so
 odm/lib64/liboptical_zoom_vs.so
 odm/lib64/libormshalclient.so
 odm/lib64/libpngwrapper.so
+odm/lib64/libpnscr2_aidl.so
+odm/lib64/libpnscr2.so
 odm/lib64/libremosaic_wrapper.so
+odm/lib64/librmsclib1.so
+odm/lib64/librpmbengclient.so
 odm/lib64/libsaveshaderbin.so
 odm/lib64/libsharebuffer.so
 odm/lib64/libsharebuffer_impl.so
@@ -1399,5 +1404,3 @@ odm/etc/wifi/sar-vendor-cmd.xml
 odm/etc/wifi/wifisar.cfg
 odm/etc/wifi.cfg
 odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini
-odm/vendor/etc/wifi/WCNSS_qcom_cfg_cmcc.ini
-odm/vendor/etc/wifi/WCNSS_qcom_cfg_roam.ini
