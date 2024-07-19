@@ -1375,6 +1375,8 @@ odm/etc/irissoft_samsung_S6E3HC3_dsc_cmd_mode_panel_21631.xml
 odm/etc/nfc/libnfc-mtp-SN100.conf_216AC:vendor/etc/libnfc-nxp.conf
 odm/etc/nfc/libnfc-nci.conf_216AC:vendor/etc/libnfc-nci.conf
 odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_68:vendor/firmware/sn100u.bin
+odm/lib/libsn100u_fw.so
+
 
 # Secure element
 odm/bin/hw/vendor.qti.secure_element@1.2-service

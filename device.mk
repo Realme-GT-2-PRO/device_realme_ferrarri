@@ -37,14 +37,19 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml
 
-# NFC
+# NFC / Secure Element
+
+TARGET_NFC_SKU := ferrarri
+
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    persist.nfc.camera.pause_polling=true
+
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp \
     android.hardware.nfc@1.2.vendor \
     android.hardware.secure_element@1.2.vendor \
     com.android.nfc_extras \
-    NfcNci \
-    Tag
+    libchrome.vendor
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.xml \
