@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from realme GT 2 Pro (RMX3301_14.0.0.601(EX01)).
+## are from realme GT 2 Pro (RMX3301_14.0.0.801(EX01)).
 
 # ACDB
 odm/etc/acdbdata/EU/acdb_cal.acdb
@@ -258,6 +258,8 @@ odm/etc/camera/filters_lut/filters_lut/farewell-V7.CUBE.rgb.bin
 odm/etc/camera/filters_lut/filters_lut/fuji-eterna-v2.cube.rgb.bin
 odm/etc/camera/filters_lut/filters_lut/fuji.cube.rgb.bin
 odm/etc/camera/filters_lut/filters_lut/gourmet.cube.rgb.bin
+odm/etc/camera/filters_lut/filters_lut/gt-beach.cube.rgb.bin
+odm/etc/camera/filters_lut/filters_lut/gt-glazed-tile.cube.rgb.bin
 odm/etc/camera/filters_lut/filters_lut/interstellar_space.bin
 odm/etc/camera/filters_lut/filters_lut/jiari-2.0.cube.rgb.bin
 odm/etc/camera/filters_lut/filters_lut/jw_sun.CUBE.rgb.bin
@@ -398,6 +400,8 @@ odm/etc/camera/filters_lut/farewell-V7.CUBE.rgb.bin
 odm/etc/camera/filters_lut/fuji-eterna-v2.cube.rgb.bin
 odm/etc/camera/filters_lut/fuji.cube.rgb.bin
 odm/etc/camera/filters_lut/gourmet.cube.rgb.bin
+odm/etc/camera/filters_lut/gt-beach.cube.rgb.bin
+odm/etc/camera/filters_lut/gt-glazed-tile.cube.rgb.bin
 odm/etc/camera/filters_lut/interstellar_space.bin
 odm/etc/camera/filters_lut/jiari-2.0.cube.rgb.bin
 odm/etc/camera/filters_lut/jw_sun.CUBE.rgb.bin
@@ -798,8 +802,8 @@ odm/etc/camera/settings_fdc.txt
 odm/etc/camera/settings_fdc_lite.txt
 odm/etc/camera/stereoParams.bin
 odm/etc/camera/wide.bin
-odm/etc/init/virtualcameraprovider.rc
 odm/etc/init/init.odm.camera.provider.override.rc
+odm/etc/init/virtualcameraprovider.rc
 odm/etc/vintf/manifest/manifest_oplus_cameraextension_aidl.xml
 odm/etc/virtualcamera.json
 odm/lib/libDeVIS.so
@@ -812,6 +816,7 @@ odm/lib64/camera/components/com.oplus.node.pilot.so
 odm/lib64/camera/components/com.oplus.node.preview.so
 odm/lib64/camera/components/com.oplus.node.sstabdefer.so
 odm/lib64/camera/components/com.oplus.node.sstabgme.so
+odm/lib64/camera/components/com.oplus.node.sstabphoto.so
 odm/lib64/camera/components/com.oplus.node.sstabrealt.so
 odm/lib64/camera/components/com.oplus.node.videoenhance.so
 odm/lib64/camera/components/com.oplus.stats.pdlib.so
@@ -984,8 +989,8 @@ odm/lib64/liboptical_zoom_dc.so
 odm/lib64/liboptical_zoom_vs.so
 odm/lib64/libormshalclient.so
 odm/lib64/libpngwrapper.so
-odm/lib64/libpnscr2_aidl.so
 odm/lib64/libpnscr2.so
+odm/lib64/libpnscr2_aidl.so
 odm/lib64/libremosaic_wrapper.so
 odm/lib64/librmsclib1.so
 odm/lib64/librpmbengclient.so
@@ -1370,6 +1375,8 @@ odm/etc/irissoft_samsung_S6E3HC3_dsc_cmd_mode_panel_21631.xml
 odm/etc/nfc/libnfc-mtp-SN100.conf_216AC:vendor/etc/libnfc-nxp.conf
 odm/etc/nfc/libnfc-nci.conf_216AC:vendor/etc/libnfc-nci.conf
 odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_68:vendor/firmware/sn100u.bin
+odm/lib/libsn100u_fw.so
+
 
 # Secure element
 odm/bin/hw/vendor.qti.secure_element@1.2-service
