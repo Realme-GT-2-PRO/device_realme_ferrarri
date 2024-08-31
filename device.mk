@@ -29,6 +29,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/vendor/resourcemanager_upd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_taro/resourcemanager_upd.xml \
     $(LOCAL_PATH)/audio/vendor/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml
 
+# FaceSense
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.face.sense_service.camera_id=1
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2412
 TARGET_SCREEN_WIDTH := 1080
